@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="e7aacd7a-197b-44f4-97ba-a14e5013681a"
+title="Тесты">
+<markdown>
+    <code xml:space="preserve" language="javascript">
+        function makeCounter() {
+            let countNum = 0;
+            return function Count() {
+                countNum++;
+                return countNum;
+            }
+        }
+
+        counter = makeCounter()
+            for(let i = 0; i &lt; 5; i++) {
+            console.log(counter())
+        }
+    </code>
+</markdown>
+<question.choice id="closureTest" multiple="false" shuffle="true">
+            <text>
+                Что выведет следующий код?
+            </text>
+        <item id="7317ab26-b64e-4b15-9562-f1dc3d2a69d4" isCorrect="false">Программа не скомпилируется</item>
+        <item id="efb1706b-de6b-40af-83dd-d64c420b5810" isCorrect="false">5 нулей</item>
+        <item id="1665c0f0-e4cc-4461-991b-01aa41a439c6" isCorrect="true">Цифры от 1 до 5</item>
+        <item id="f6340a91-cc17-483b-8923-6f2732f72813" isCorrect="false">5 раз undefined</item>
+</question.choice>
+</slide.quiz>

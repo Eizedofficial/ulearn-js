@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="4321e430-6f6e-4c6d-b8cb-a57a0049bbdf"
+title="Тесты">
+    <question.choice id="contextFunctionsTest" multiple="true" shuffle="true">
+        <text>
+            Какие функции можно использовать для предотвращения потери контекста?
+        </text>
+        <item id="fda05bd5-c02b-411a-bba5-fa1f450ee486" isCorrect="true">bind</item>
+        <item id="1f52523d-17a3-42d0-a758-571b7c811739" isCorrect="true">call</item>
+        <item id="c3c121bb-cd7e-4a41-acc1-cbebff4fb018" isCorrect="true">apply</item>
+        <item id="e57dd50f-08bf-4f3d-99c4-204f5391e4c9" isCorrect="false">link</item>
+    </question.choice>
+</slide.quiz>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="de18fec4-37ad-40b9-a5e5-01e48f4a5eb3"
+title="Тесты">
+    <question.choice id="allowedVariablesQuestion" multiple="true" shuffle="true">
+        <text>
+            Какие переменные будут разрешены компилятором?
+        </text>
+        <item id="03307f6d-202d-4fe8-9768-10c86009fc14" isCorrect="true"
+            explanation="Знаки $ и _ разрешены для использования в именах переменных">let _userName</item>
+        <item id="be04e9c4-ed87-4103-95f0-085d7cbda9b1" isCorrect="false"
+            explanation="Начинать название переменной с цифры нельзя">let 1username</item>
+        <item id="69d3dab3-f545-41f4-8688-de7304095a4e" isCorrect="true"
+            explanation="Знаки $ и _ разрешены для использования в именах переменных">let $USERNAME</item>
+        <item id="0975f72b-1f62-4526-b60d-67f123c1daca" isCorrect="false"
+            explanation="В именах переменных нельзя использовать знаки кроме $ и _">let *userName</item>
+    </question.choice>
+    <question.choice id="codePrintQuestion" multiple="false" shuffle="true">
+        <text xml:space="preserve">
+            Что выведет следующий код?
+            typeof("6" / "0")
+        </text>
+        <item id="5d843c7d-000e-443e-9508-fca66f1914a4" isCorrect="false"
+            explanation="Строки, состоящие из чисел, во время математических операций автоматически преобразовываются в числа">"string"</item>
+        <item id="637e7557-abe1-4ac2-ae32-07863f807e75" isCorrect="false">undefined</item>
+        <item id="256307f9-c754-4d43-b28a-572b3bbd3e2e" isCorrect="false"
+            explanation="6/0 - это действительно бесконечность, но в JS бесконечность входит в тип number">Infinity</item>
+        <item id="de6a2e5b-4871-4d4c-bb5d-daf3e62374a1" isCorrect="true"
+            explanation="Строки, состоящие из чисел, во время математических операций автоматически преобразовываются в числа">"number"</item>
+    </question.choice>
+</slide.quiz>
