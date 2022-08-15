@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<unit xmlns="https://ulearn.me/schema/v2" title="Маршрутизатор Express" id="a0cca3dc-a789-435e-90eb-5050f6f14d27">
+  <slides>
+    <add>S*.xml</add>
+  </slides>
+</unit>

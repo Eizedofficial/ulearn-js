@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="2d022e9e-7d68-4620-88f9-23db2a6a6ac7"
+title="Тесты">
+    <markdown>
+        <code xml:space="preserve" language="javascript">
+            // app.js
+            const express = require("express");
+ 
+            const app = express();
+            app.get("/", function(request, response){
+                
+                response.send("<h1>Главная страница</h1>");
+            });
+            app.get("/about", function(request, response){
+                
+                response.send("<h1>О сайте</h1>");
+            });
+            app.get("/contact", function(request, response){
+                
+                response.send("<h1>Контакты</h1>");
+            });
+            app.get("/main", function(request, response){
+                
+                response.send("<h1>Главная страница</h1>");
+            });
+
+            app.listen(3000);
+        </code>
+    </markdown>
+    <question.choice id="expressTest" multiple="false" shuffle="true">
+        <text>
+            Сколько маршрутов, которые будут обрабатываться сервером, определено в следующем приложении?
+        </text>
+        <item id="0bc69b48-686a-4693-ae96-1b7d367b0e31" isCorrect="false">1</item>
+        <item id="c9b9ff9e-814d-41b5-988e-ee2a9a83046d" isCorrect="false">3</item>
+        <item id="1e153a5b-c417-47a7-b18c-50326ea0c3ca" isCorrect="true">4</item>
+        <item id="4ca293af-c4e3-4e97-ae10-f54d177f2b17" isCorrect="false">Ни один маршрут не определён</item>
+    </question.choice>
+</slide.quiz>
