@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <slide.quiz xmlns="https://ulearn.me/schema/v2" id="de18fec4-37ad-40b9-a5e5-01e48f4a5eb3"
 title="Тесты">
     <question.choice id="allowedVariablesQuestion" multiple="true" shuffle="true">
