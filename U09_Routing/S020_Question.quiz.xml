@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="83308793-87bd-4a24-a5c2-ead286200f3c"
+title="Тесты">
+    <markdown>
+        <code xml:space="preserve" language="javascript">
+            app.get("/expre?ss", function (req, res) {
+                res.send(req.url)
+            });
+        </code>
+    </markdown>
+    <question.choice id="routingTest1" multiple="true" shuffle="true">
+        <text>
+            Каким запросам будет соответствовать следующий URL?
+        </text>
+        <item id="127c8827-cf16-4719-9e17-05c139694369" isCorrect="false">/expreeeess</item>
+        <item id="c3721209-2c5d-492c-b0bf-5f635845eab6" isCorrect="false">/expreass</item>
+        <item id="a2d0523a-e648-45ae-a55c-0995fde372b2" isCorrect="true">/exprss</item>
+        <item id="1eb4fd5b-8c94-482c-9cbf-eefc761c574e" isCorrect="true">/express</item>
+    </question.choice>
+    <markdown>
+        <code xml:space="preserve" language="javascript">
+            app.get("/expre*ss", function (req, res) {
+                res.send(req.url)
+            });
+        </code>
+    </markdown>
+    <question.choice id="routingTest2" multiple="true" shuffle="true">
+        <text>
+            Каким запросам будет соответствовать следующий URL?
+        </text>
+        <item id="d8986172-c904-464b-904b-7056e9bd65cf" isCorrect="true">/exprerss</item>
+        <item id="35ff123b-394c-4025-ab07-7251c75256b4" isCorrect="true">/expre.sss</item>
+        <item id="8c544a07-5363-4e3f-8942-d2cdebe83dae" isCorrect="false">/exproess</item>
+        <item id="07b312a9-4967-41d5-8bdc-d90e07a45c7d" isCorrect="true">/expre/333hss</item>
+    </question.choice>
+</slide.quiz>

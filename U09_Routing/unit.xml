@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<unit xmlns="https://ulearn.me/schema/v2" title="Роутинг" id="a1881117-8f9b-4108-898e-4e0794cec316">
+  <slides>
+    <add>S*.xml</add>
+  </slides>
+</unit>
