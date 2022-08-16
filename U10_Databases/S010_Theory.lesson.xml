@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<slide xmlns="https://ulearn.me/schema/v2" title="Что такое Express" id="d1b29a9d-a293-41e1-9f7e-fb0c5c96766d">
+<slide xmlns="https://ulearn.me/schema/v2" title="JavaScript и базы данных" id="d1b29a9d-a293-41e1-9f7e-fb0c5c96766d">
   <markdown>
     Как и многие другие языки программирования, node.js имеет различные адаптеры для баз данных.
     
