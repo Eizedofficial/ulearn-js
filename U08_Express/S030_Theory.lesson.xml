@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Процесс установки и запуск приложения" id="82e789fe-0f7e-40a2-8d28-8e63536b4daf">
+  <markdown>
+    Для использования фреймворка необходимо подключить модуль express и создать приложение.
+
+    Создайте каталог для своего приложения и сделайте его своим рабочим каталогом.
+    <code xml:space="preserve" language="bash">
+        $ mkdir myapp
+        $ cd myapp
+    </code>
+
+    С помощью команды npm init создайте файл package.json для своего приложения.
+    <code xml:space="preserve" language="bash">
+        $ npm init
+    </code>
+
+    Примите предлагаемые значения по умолчанию для большинства пунктов, кроме следующего:
+    <code xml:space="preserve" language="bash">
+        entry point: (index.js)
+    </code>
+
+    Введите <code>app.js</code> или любое другое имя главного файла по своему желанию. Если вас устраивает <code>index.js</code>, нажмите клавишу ВВОД, чтобы принять предложенное имя файла по умолчанию.
+    
+    Теперь установите Express в каталоге app и сохраните его в списке зависимостей. Например:
+    <code xml:space="preserve" language="bash">
+        $ npm install express --save
+    </code>
+
+    Создадим самое простое приложение с помощью Express.
+
+    В каталоге app создайте файл с именем app.js и добавьте следующий код:
+    <code xml:space="preserve" language="javascript">
+        var express = require('express');
+        var app = express();
+
+        app.get('/', function (req, res) {
+          res.send('Hello World!');
+        });
+
+        app.listen(3000, function () {
+          console.log('Example app listening on port 3000!');
+        });
+    </code>
+
+    Функция app.get() обрабатывает GET-запросы протокола HTTP и позволяет связать маршруты с определенными обработчиками. Для этого первым параметром передается маршрут, а вторым - обработчик, который будет вызываться, если запрос к серверу соответствует данному маршруту.
+
+    Функция res.send() отправляет ответ.
+
+    Приложение запускает сервер и слушает соединения на порте 3000. Приложение выдает ответ “Hello World!” на запросы, адресованные корневому URL (/) или маршруту. Для всех остальных путей ответом будет 404 Not Found.
+    <code xml:space="preserve" language="bash">
+        $ node app.js
+    </code>
+
+    После этого откройте в браузере страницу http://localhost:3000/, чтобы просмотреть результат.
+  </markdown>
+</slide>
