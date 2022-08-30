@@ -4,25 +4,25 @@
     Для использования фреймворка необходимо подключить модуль express и создать приложение.
 
     Создайте каталог для своего приложения и сделайте его своим рабочим каталогом.
-    <code xml:space="preserve" language="bash">
+    <code xml:space="preserve" language="console">
         $ mkdir myapp
         $ cd myapp
     </code>
 
     С помощью команды npm init создайте файл package.json для своего приложения.
-    <code xml:space="preserve" language="bash">
+    <code xml:space="preserve" language="console">
         $ npm init
     </code>
 
     Примите предлагаемые значения по умолчанию для большинства пунктов, кроме следующего:
-    <code xml:space="preserve" language="bash">
+    <code xml:space="preserve" language="console">
         entry point: (index.js)
     </code>
 
     Введите <code>app.js</code> или любое другое имя главного файла по своему желанию. Если вас устраивает <code>index.js</code>, нажмите клавишу ВВОД, чтобы принять предложенное имя файла по умолчанию.
     
     Теперь установите Express в каталоге app и сохраните его в списке зависимостей. Например:
-    <code xml:space="preserve" language="bash">
+    <code xml:space="preserve" language="console">
         $ npm install express --save
     </code>
 
@@ -47,7 +47,7 @@
     Функция res.send() отправляет ответ.
 
     Приложение запускает сервер и слушает соединения на порте 3000. Приложение выдает ответ “Hello World!” на запросы, адресованные корневому URL (/) или маршруту. Для всех остальных путей ответом будет 404 Not Found.
-    <code xml:space="preserve" language="bash">
+    <code xml:space="preserve" language="console">
         $ node app.js
     </code>
 
