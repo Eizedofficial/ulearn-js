@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <slide.quiz xmlns="https://ulearn.me/schema/v2" id="2d022e9e-7d68-4620-88f9-23db2a6a6ac7"
 title="Тесты">
-    <question.choice id="expressTest" multiple="false" shuffle="true">
+    <question.choice id="expressTest" multiple="true" shuffle="true">
         <text>
            Выбери особенности фреймворка Express:
         </text>
@@ -10,7 +10,7 @@ title="Тесты">
         <item id="1e153a5b-c417-47a7-b18c-50326ea0c3ca" isCorrect="true">Ускоряет создание сервера</item>
         <item id="4ca293af-c4e3-4e97-ae10-f54d177f2b17" isCorrect="true">Подходит для создания простых приложений</item>
     </question.choice>
-    <question.choice id="expressTest2" multiple="false" shuffle="true">
+    <question.choice id="expressTest2" multiple="true" shuffle="true">
         <text>
            Какие из представленных фреймворков являются аналогами Express?
         </text>
