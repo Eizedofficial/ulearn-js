@@ -8,19 +8,19 @@ title="Тесты">
             const app = express();
             app.get("/", function(request, response){
                 
-                response.send("<h1>Hello world!</h1>");
+                response.send("&lt;h1&gt;Hello world!&lt;/h1&gt;");
             });
             app.get("/about", function(request, response){
                 
-                response.send("<h1>О сайте</h1>");
+                response.send("&lt;h1&gt;О сайте&lt;/h1&gt;");
             });
             app.get("/contact", function(request, response){
                 
-                response.send("<h1>Контакты</h1>");
+                response.send("&lt;h1&gt;Контакты&lt;/h1&gt;");
             });
             app.get("/main", function(request, response){
                 
-                response.send("<h1>Главная страница</h1>");
+                response.send("&lt;h1&gt;Главная страница&lt;/h1&gt;");
             });
 
             app.listen(3000);
