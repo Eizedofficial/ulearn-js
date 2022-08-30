@@ -14,9 +14,9 @@ title="Тесты">
         <text>
            Какие из представленных фреймворков являются аналогами Express?
         </text>
-        <item id="0bc69b48-686a-4693-ae96-1b7d367b0e31" isCorrect="true">Adonis</item>
-        <item id="c9b9ff9e-814d-41b5-988e-ee2a9a83046d" isCorrect="false">Laravel</item>
-        <item id="1e153a5b-c417-47a7-b18c-50326ea0c3ca" isCorrect="false">Django</item>
-        <item id="4ca293af-c4e3-4e97-ae10-f54d177f2b17" isCorrect="true">Meteor </item>
+        <item id="40bfe760-12d9-4eeb-895a-82fb2c5d23e6" isCorrect="true">Adonis</item>
+        <item id="230f0189-bd2c-4dc4-822e-bbf0ce71af0e" isCorrect="false">Laravel</item>
+        <item id="a44f6390-a39f-4169-aaa9-544d01631c5e" isCorrect="false">Django</item>
+        <item id="ed7f9dec-a45a-4f2e-aed4-33dd58be0484" isCorrect="true">Meteor </item>
     </question.choice>
 </slide.quiz>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="82e4a610-cf8b-4453-b5f6-1723b7aecdaa"
+title="Тесты">
+    <markdown>
+        <code xml:space="preserve" language="javascript">
+            const express = require("express");
+ 
+            const app = express();
+            app.get("/", function(request, response){
+                
+                response.send("<h1>Hello world!</h1>");
+            });
+            app.get("/about", function(request, response){
+                
+                response.send("<h1>О сайте</h1>");
+            });
+            app.get("/contact", function(request, response){
+                
+                response.send("<h1>Контакты</h1>");
+            });
+            app.get("/main", function(request, response){
+                
+                response.send("<h1>Главная страница</h1>");
+            });
+
+            app.listen(3000);
+        </code>
+    </markdown>
+    <question.choice id="expressTest3" multiple="false" shuffle="true">
+        <text>
+           Сколько маршрутов, которые будут обрабатываться сервером, определено в следующем приложении?
+        </text>
+        <item id="387fff50-91f6-40a0-b146-35a7e8b8b75e" isCorrect="false">1</item>
+        <item id="88aeedfa-118c-4cbe-bf79-1500567e5a8e" isCorrect="false">3</item>
+        <item id="73b9925f-900c-401c-a991-e51599fdb3f0" isCorrect="true">4</item>
+        <item id="62bbc3bb-e4c9-4757-a563-27aee0dac6fa" isCorrect="false">Ни один маршрут не определен</item>
+    </question.choice>
+    <question.choice id="expressTest4" multiple="false" shuffle="true">
+        <text>
+           Какой ответ выдаст приложение app.js на запрос http://localhost:3000/home ?
+        </text>
+        <item id="f1320fb6-2b62-4ec8-ba23-b02fe978498c" isCorrect="false">Домашняя страница</item>
+        <item id="2cdffc74-3ac1-43c5-a872-44081c1f9261" isCorrect="true">404 Not Found</item>
+        <item id="44d3b2e4-20e4-4a88-a5c8-7cfceb6db128" isCorrect="false">Hello world!</item>
+        <item id="1a1bcb15-ba75-47ac-a03c-25a41ae4ef54" isCorrect="false">Главная страница</item>
+    </question.choice>
+</slide.quiz>
