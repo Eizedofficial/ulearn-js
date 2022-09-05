@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <slide.quiz xmlns="https://ulearn.me/schema/v2" id="ad06fe35-b776-431c-83e4-60c26cacec8d"
-title="Тест по теме">
+title="Тест">
     <question.choice id="ajaxTest1" multiple="true" shuffle="true">
         <text>
-            Выбери все свойства XMLHttpRequest
+            Выбери верные утверждения
         </text>
-        <item id="9d2de366-db4f-4af1-b429-ea25812c71e1" isCorrect="false">send</item>
-        <item id="5920788e-536f-400d-ad5f-a461533846c5" isCorrect="true">status</item>
-        <item id="87cfcd42-62e9-4ecb-ba25-11ed15beb29f" isCorrect="true">responseXML</item>
-        <item id="aabdada7-0f45-46f5-95d7-7b43850b7e83" isCorrect="false">onTimeout</item>
+        <item id="9d2de366-db4f-4af1-b429-ea25812c71e1" isCorrect="false">Единственным методом AJAX для работы с веб-страницей является динамическое обращение</item>
+        <item id="5920788e-536f-400d-ad5f-a461533846c5" isCorrect="true">Технологии AJAX повышают интерактивность веб-страницы. </item>
+        <item id="87cfcd42-62e9-4ecb-ba25-11ed15beb29f" isCorrect="false">Технологии AJAX увеличивают нагрузку на сервер.</item>
+        <item id="aabdada7-0f45-46f5-95d7-7b43850b7e83" isCorrect="true">Благодаря технологиям AJAX происходит снижение трафика</item>
     </question.choice>
-    <question.choice id="ajaxTest2" multiple="false" shuffle="true">
-        <text>
-            Что делает вызов xhr.abort()?
-        </text>
-        <item id="880cc519-cff7-41ca-aa22-ef10fd3229a6" isCorrect="false">Устанавливает заголовок</item>
-        <item id="59d670fa-0e9b-425e-8515-e89bad44a9b6" isCorrect="false">Открывает соединение и отправляет запрос на сервер</item>
-        <item id="5782d0ee-b06b-4184-8e8b-ba42ce56258b" isCorrect="true">Прерывает выполнение запроса</item>
-        <item id="346a5fd5-556b-46ba-b71f-254e3bfa0086" isCorrect="false">Возвращает значение заголовка</item>
-    </question.choice>
-</slide.quiz>
+    <question.choice id="ajaxTest2" multiple="false" shuffle="true">        
