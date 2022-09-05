@@ -5,7 +5,7 @@ title="Тест">
 		<text>
 			Выбери верные утверждения о XMLHttpRequest:
 		</text>
-		<item id="9d2de366-db4f-4af1-b429-ea25812c71e1" isCorrect="false">Работает только с данными формата XML</item>
-		<item id="5920788e-536f-400d-ad5f-a461533846c5" isCorrect="true">Даёт возможность делать HTTP-запросы к серверу без перезагрузки страницы</item>
-		<item id="87cfcd42-62e9-4ecb-ba25-11ed15beb29f" isCorrect="true">Работает с любыми данными</item>
-		<item id="aabdada7-0f45-46f5-95d7-7b43850b7e83" isCorrect="false">Используется лишь в редких случаях</item>
+		<item id="e9ba5388-63b4-4047-8243-3442920b0063" isCorrect="false">Работает только с данными формата XML</item>
+		<item id="8493c81b-abc0-430c-97c5-fe3d721e9001" isCorrect="true">Даёт возможность делать HTTP-запросы к серверу без перезагрузки страницы</item>
+		<item id="3c856ed5-88ae-45fa-9288-d4c1a90b6438" isCorrect="true">Работает с любыми данными</item>
+		<item id="9c00741c-85e4-473f-9085-658b664fe63a" isCorrect="false">Используется лишь в редких случаях</item>
