@@ -1,0 +1,41 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Знакомство с XMLHttpRequest" id="5880c8ab-b628-4495-87d8-3dbfd33bdb03">
+	<markdown>
+		Объект XMLHttpRequest (XHR) даёт возможность из JavaScript делать HTTP-запросы к серверу без перезагрузки страницы.
+		Несмотря на слово «XML» в названии, XMLHttpRequest может работать с любыми данными, а не только с XML.
+		Применять его очень просто, как правило, используется для загрузки данных.
+		Пример, в котором XMLHttpRequest загружает файл phones.json из текущей директории и выдаёт его содержимое:
+
+		1. Создаём новый объект XMLHttpRequest
+
+		```
+		var xhr = new XMLHttpRequest();
+		```
+
+		2. Конфигурируем его: GET-запрос на URL 'phones.json'
+
+		```
+		xhr.open('GET', 'phones.json', false);
+		```
+
+		3. Отсылаем запрос
+
+		```
+		xhr.send();
+		```
+
+		4. Если код ответа сервера не 200, то это ошибка
+
+		```
+		if (xhr.status != 200) {
+		// обработать ошибку
+		alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
+		} else {
+		// вывести результат
+		alert( xhr.responseText ); // responseText -- текст ответа.
+		}
+		```
+
+		Далее будут рассмотрим основные методы и свойства объекта XMLHttpRequest, в том числе, которые были использованы в этом коде.
+	</markdown>
+</slide>
