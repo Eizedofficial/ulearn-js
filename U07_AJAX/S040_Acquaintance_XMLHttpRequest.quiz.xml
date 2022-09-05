@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="b033fa22-e4cc-4dd4-9f8c-8a84a44043e2"
+title="Тест">
+	<question.choice id="ajaxTest2" multiple="true" shuffle="true">
+		<text>
+			Выбери верные утверждения о XMLHttpRequest:
+		</text>
+		<item id="9d2de366-db4f-4af1-b429-ea25812c71e1" isCorrect="false">Работает только с данными формата XML</item>
+		<item id="5920788e-536f-400d-ad5f-a461533846c5" isCorrect="true">Даёт возможность делать HTTP-запросы к серверу без перезагрузки страницы</item>
+		<item id="87cfcd42-62e9-4ecb-ba25-11ed15beb29f" isCorrect="true">Работает с любыми данными</item>
+		<item id="aabdada7-0f45-46f5-95d7-7b43850b7e83" isCorrect="false">Используется лишь в редких случаях</item>
