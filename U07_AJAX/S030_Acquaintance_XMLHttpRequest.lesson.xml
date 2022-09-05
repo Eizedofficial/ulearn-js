@@ -8,25 +8,19 @@
 
 		1. Создаём новый объект XMLHttpRequest
 
-		```
-		var xhr = new XMLHttpRequest();
-		```
-
+		<code>var xhr = new XMLHttpRequest();</code>
+		
 		2. Конфигурируем его: GET-запрос на URL 'phones.json'
 
-		```
-		xhr.open('GET', 'phones.json', false);
-		```
+		<code>xhr.open('GET', 'phones.json', false);</code>
 
 		3. Отсылаем запрос
 
-		```
-		xhr.send();
-		```
+		<code>xhr.send();</code>
 
 		4. Если код ответа сервера не 200, то это ошибка
 
-		```
+		<code>
 		if (xhr.status != 200) {
 		// обработать ошибку
 		alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
@@ -34,7 +28,7 @@
 		// вывести результат
 		alert( xhr.responseText ); // responseText -- текст ответа.
 		}
-		```
+		</code>
 
 		Далее будут рассмотрим основные методы и свойства объекта XMLHttpRequest, в том числе, которые были использованы в этом коде.
 	</markdown>
