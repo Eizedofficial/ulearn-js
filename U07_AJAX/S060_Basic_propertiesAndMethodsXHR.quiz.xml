@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="7316ffe7-b3ee-4ab7-9e84-07aa8d8995c2"
+title="Тесты">
+		<question.choice id="ajaxTest3" multiple="false" shuffle="true">
+		<text>
+			Выберете все свойства XMLHttpRequest:
+		</text>
+		<item id="4dcb5168-f62c-4615-8d39-0be026af4945" isCorrect="false">send</item>
+		<item id="d215df83-fcb0-4b87-afa4-8f3b79dad356" isCorrect="true">status </item>
+		<item id="aebbd4d1-269e-4200-9f51-c0e8259e0409" isCorrect="true">responseText </item>
+		<item id="f901d01b-912e-4e09-a3a3-746e8015de3a" isCorrect="false">ontimeout</item>
+	</question.choice>
+	<question.choice id="expressTest5" multiple="false" shuffle="true">
+		<text>
+			Что делает вызов xhr.abort()?
+		</text>
+		<item id="4fdc6d3e-a5bb-4909-aca8-bbc9a8cc054a" isCorrect="false">Устанавливает заголовок</item>
+		<item id="d08a7f44-ff06-4eb0-a05b-05829d10882e" isCorrect="false">Открывает соединение и отправляет запрос на сервер</item>
+		<item id="65a1e7f6-f453-474a-96c4-edc4a344ed7e" isCorrect="true">Прерывает выполнение запроса</item>
+		<item id="9d35bd99-1da7-468c-a002-1c4c13dc02e8" isCorrect="false">Возвращает значение заголовка</item>
+	</question.choice>
+	<question.choice id="expressTest6" multiple="false" shuffle="true">
+		<text>
+			Выберете методы XMLHttpRequest:
+		</text>
+		<item id="69c36e38-666c-4573-bc77-1f1e31d4dd4b" isCorrect="false">onerror</item>
+		<item id="38a96a59-0ba4-445b-beab-b0d1710fc5ab" isCorrect="false">onabort</item>
+		<item id="1b752f0e-0ae5-4707-a418-344f03e08b5d" isCorrect="true">open</item>
+		<item id="e652c346-825e-4280-b542-c65fc7f848b1" isCorrect="true">send</item>
+	</question.choice>
+</slide.quiz>
