@@ -5,7 +5,7 @@ title="Тест">
         <text>
             Выбери верные утверждения
         </text>
-        <item id="9d2de366-db4f-4af1-b429-ea25812c71e1" isCorrect="false">Единственным методом AJAX для работы с веб-страницей является динамическое обращение</item>
-        <item id="5920788e-536f-400d-ad5f-a461533846c5" isCorrect="true">Технологии AJAX повышают интерактивность веб-страницы. </item>
-        <item id="87cfcd42-62e9-4ecb-ba25-11ed15beb29f" isCorrect="false">Технологии AJAX увеличивают нагрузку на сервер.</item>
-        <item id="aabdada7-0f45-46f5-95d7-7b43850b7e83" isCorrect="true">Благодаря технологиям AJAX происходит снижение трафика</item>
+        <item id="b85550d4-c32e-4319-ba38-dce9f00d26c2" isCorrect="false">Единственным методом AJAX для работы с веб-страницей является динамическое обращение</item>
+        <item id="7beb3b8f-37b2-4961-bc03-d0509f541abd" isCorrect="true">Технологии AJAX повышают интерактивность веб-страницы. </item>
+        <item id="3997cf5f-6971-43a3-9376-7d5befff642a" isCorrect="false">Технологии AJAX увеличивают нагрузку на сервер.</item>
+        <item id="e47b7c2e-f363-48d5-b5fc-77d8e8d8b47f" isCorrect="true">Благодаря технологиям AJAX происходит снижение трафика</item>
