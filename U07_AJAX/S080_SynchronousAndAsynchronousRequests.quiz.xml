@@ -15,7 +15,7 @@ title="Тесты">
 		<text>
 			Какой запрос выполняется?
 		</text>
-		<item id="f4ed0566-bd1f-4550-b08c-c5a0130f1555 isCorrect="false">Синхронный</item>
+		<item id="f4ed0566-bd1f-4550-b08c-c5a0130f1555" isCorrect="false">Синхронный</item>
 		<item id="9f75f5c0-d2a2-45c0-88ff-7ff9ec015bf6" isCorrect="true">Асинхронный </item>
 	</question.choice>
 </slide.quiz>
