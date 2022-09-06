@@ -5,17 +5,17 @@ title="Тесты">
 		<text>
 			Выберете верные утверждения:
 		</text>
-		<item id="4bc14491-aaaa-48d1-89cb-de0560392b79" isCorrect="false">Асинхронные вызовы используются чрезвычайно редко</item>
-		<item id="3f015d27-0990-4ca2-aa37-6b6c04338574" isCorrect="true">Синхронные вызовы блокируют взаимодействие со страницей до окончания загрузки</item>
-		<item id="7c9bf1f7-daeb-4a77-8ade-6b56b058e2c3" isCorrect="false">Асинхронные вызовы не позволяют отослать два запроса одновременно</item>
-		<item id="5968388a-db37-4cda-93f5-cffea73bdbd3" isCorrect="true">У асинхронного запроса параметр async равен true</item>
+		<item id="5ce87c1d-5b7c-4260-8533-4af26e9a9d95" isCorrect="false">Асинхронные вызовы используются чрезвычайно редко</item>
+		<item id="d871216b-5897-4b4a-8a1a-4ad6ac66f136" isCorrect="true">Синхронные вызовы блокируют взаимодействие со страницей до окончания загрузки</item>
+		<item id="25b6c82a-0028-4e73-b6a3-b9f5078afd4b" isCorrect="false">Асинхронные вызовы не позволяют отослать два запроса одновременно</item>
+		<item id="fe8ee496-948d-4327-ac87-fdd4ca83c8d9" isCorrect="true">У асинхронного запроса параметр async равен true</item>
 	</question.choice>
 	<question.choice id="expressTest8" multiple="false" shuffle="true">
 		<code>xhr.open('GET', 'phones.json');</code>
 		<text>
 			Какой запрос выполняется?
 		</text>
-		<item id="c6518a32-bb40-46f3-8251-b603b103f8fa" isCorrect="false">Синхронный</item>
-		<item id="0e522446-e18e-40df-adc2-6ea19bcc34b5" isCorrect="true">Асинхронный </item>
+		<item id="f4ed0566-bd1f-4550-b08c-c5a0130f1555 isCorrect="false">Синхронный</item>
+		<item id="9f75f5c0-d2a2-45c0-88ff-7ff9ec015bf6" isCorrect="true">Асинхронный </item>
 	</question.choice>
 </slide.quiz>
