@@ -9,4 +9,4 @@ title="Тест">
 		<item id="e663ddde-7b6b-4881-bf1f-10200d0a13b1" isCorrect="true">Даёт возможность делать HTTP-запросы к серверу без перезагрузки страницы</item>
 		<item id="f7c2beef-bdd8-4997-a391-4cccfc0a91f7" isCorrect="true">Работает с любыми данными</item>
 		<item id="7deb13c1-91d2-48b3-910d-c9ae8b8b1a0b" isCorrect="false">Используется лишь в редких случаях</item>
-</slide>
+</slide.quiz>
