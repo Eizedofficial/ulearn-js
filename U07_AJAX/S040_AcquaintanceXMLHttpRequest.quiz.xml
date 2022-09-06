@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <slide.quiz xmlns="https://ulearn.me/schema/v2" id="b033fa22-e4cc-4dd4-9f8c-8a84a44043e2"
 title="Тест">
 	<question.choice id="ajaxTest2" multiple="true" shuffle="true">
 		<text>
 			Выбери верные утверждения о XMLHttpRequest:
 		</text>
-		<item id="e9ba5388-63b4-4047-8243-3442920b0063" isCorrect="false">Работает только с данными формата XML</item>
-		<item id="8493c81b-abc0-430c-97c5-fe3d721e9001" isCorrect="true">Даёт возможность делать HTTP-запросы к серверу без перезагрузки страницы</item>
-		<item id="3c856ed5-88ae-45fa-9288-d4c1a90b6438" isCorrect="true">Работает с любыми данными</item>
-		<item id="9c00741c-85e4-473f-9085-658b664fe63a" isCorrect="false">Используется лишь в редких случаях</item>
+		<item id="3d3f76a9-31f6-4127-bef0-c6de94ad8935" isCorrect="false">Работает только с данными формата XML</item>
+		<item id="e663ddde-7b6b-4881-bf1f-10200d0a13b1" isCorrect="true">Даёт возможность делать HTTP-запросы к серверу без перезагрузки страницы</item>
+		<item id="f7c2beef-bdd8-4997-a391-4cccfc0a91f7" isCorrect="true">Работает с любыми данными</item>
+		<item id="7deb13c1-91d2-48b3-910d-c9ae8b8b1a0b" isCorrect="false">Используется лишь в редких случаях</item>
+</slide>
