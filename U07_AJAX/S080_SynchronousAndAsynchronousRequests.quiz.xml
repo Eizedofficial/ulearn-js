@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <slide.quiz xmlns="https://ulearn.me/schema/v2" id="465972ed-af81-4dfd-a72e-f8d0513370ad"
 title="Тесты">
-	<question.choice id="ajaxTest7" multiple="false" shuffle="true">
+	<question.choice id="ajaxTest7" multiple="true" shuffle="true">
 		<text>
 			Выберете верные утверждения:
 		</text>
