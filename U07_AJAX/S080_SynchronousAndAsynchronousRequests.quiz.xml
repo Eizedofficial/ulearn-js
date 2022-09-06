@@ -11,7 +11,9 @@ title="Тесты">
 		<item id="fe8ee496-948d-4327-ac87-fdd4ca83c8d9" isCorrect="true">У асинхронного запроса параметр async равен true</item>
 	</question.choice>
 	<question.choice id="expressTest8" multiple="false" shuffle="true">
-		<code>xhr.open('GET', 'phones.json');</code>
+		```
+		xhr.open('GET', 'phones.json');
+		```
 		<text>
 			Какой запрос выполняется?
 		</text>
