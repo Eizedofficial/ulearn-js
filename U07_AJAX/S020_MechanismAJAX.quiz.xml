@@ -9,4 +9,4 @@ title="Тест">
         <item id="31212b3f-70ed-4639-a5e0-476a5c18471b" isCorrect="true">Технологии AJAX повышают интерактивность веб-страницы. </item>
         <item id="51c32588-50b1-4977-8750-af7844963da8" isCorrect="false">Технологии AJAX увеличивают нагрузку на сервер.</item>
         <item id="42edddce-7800-4674-ae12-efefeee5b6e6" isCorrect="true">Благодаря технологиям AJAX происходит снижение трафика</item>
- </slide>
+ </slide.quiz>
