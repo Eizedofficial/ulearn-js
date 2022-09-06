@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<slide.quiz xmlns="https://ulearn.me/schema/v2" id="7316ffe7-b3ee-4ab7-9e84-07aa8d8995c2"
-title="Тесты">
-	<question.choice id="ajaxTest3" multiple="false" shuffle="true">
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="7316ffe7-b3ee-4ab7-9e84-07aa8d8995c2" title="Тесты">
+	<question.choice id="ajaxTest3" multiple="true" shuffle="true">
 		<text>
 			Выберете все свойства XMLHttpRequest:
 		</text>
@@ -19,7 +18,7 @@ title="Тесты">
 		<item id="65a1e7f6-f453-474a-96c4-edc4a344ed7e" isCorrect="true">Прерывает выполнение запроса</item>
 		<item id="9d35bd99-1da7-468c-a002-1c4c13dc02e8" isCorrect="false">Возвращает значение заголовка</item>
 	</question.choice>
-	<question.choice id="expressTest6" multiple="false" shuffle="true">
+	<question.choice id="expressTest6" multiple="true" shuffle="true">
 		<text>
 			Выберете методы XMLHttpRequest:
 		</text>
