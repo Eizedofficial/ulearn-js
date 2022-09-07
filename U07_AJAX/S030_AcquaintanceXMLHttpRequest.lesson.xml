@@ -12,7 +12,7 @@
 		// создаём новый объект XMLHttpRequest
 		var xhr = new XMLHttpRequest();
 		// конфигурируем его: GET-запрос на URL 'phones.json'
-                xhr.open('GET', 'phones.json', false);
+		xhr.open('GET', 'phones.json', false);
 		// отсылаем запрос
 		xhr.send();
 		// если код ответа сервера не 200, то это ошибка
