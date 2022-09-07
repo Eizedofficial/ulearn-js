@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="fba271ce-2b70-4d71-b26b-31fee771773f"
+title="Тесты">
+	<question.choice id="HTTPTest_1" multiple="false" shuffle="true">
+		<text>
+			В каком году состоялся первый релиз протокола HTTP?
+		</text>
+		<item id="4416d12d-4ee8-408a-8c8b-2dec0f95e4d3" isCorrect="false">1993</item>
+		<item id="683fbc49-db53-4299-ae66-faf6140a4415" isCorrect="false">1999</item>
+		<item id="34be4daf-4f98-46f9-906f-66fca3159063" isCorrect="true">1991</item>
+		<item id="c0e57a50-6cb5-4a2b-ade9-751eaf5eb368" isCorrect="false">1990</item>
+	</question.choice>
+
+	<question.choice id="HTTPTest_2" multiple="true" shuffle="true">
+		<text>
+			В чем различие методов GET() и HEAD() протокола HTTP?
+		</text>
+		<item id="f1176656-896f-48af-870f-a341e62447be" isCorrect="true">В случае запроса по методу HEAD() содержимое не посылается.  </item>
+		<item id="c1e67ecf-4092-4d12-8af1-3f79a2d26963" isCorrect="false">В случае запроса по методу GET() возвращается только заголовок.  </item>
+		<item id="05f00567-c953-45ce-a724-1321c44db559" isCorrect="false">Методы абсолютно разные. </item>
+		<item id="c3f44191-0797-4468-b27b-6f22da8d0244" isCorrect="true">В случае запроса по методу GET() возвращается статус со строкой, заголовком и телом. </item>
+	</question.choice>
+</slide.quiz>
