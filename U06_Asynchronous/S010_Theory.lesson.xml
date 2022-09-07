@@ -1,20 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<slide xmlns="https://ulearn.me/schema/v2" title="Теория" id="bd07e911-5363-4b9b-940f-237c4ace9005">
+<slide xmlns="https://ulearn.me/schema/v2" title="Callback-функции" id="bd07e911-5363-4b9b-940f-237c4ace9005">
   <markdown>
-    1. [Callback](https://developer.mozilla.org/ru/docs/Словарь/функция_обратного_вызова). До стандарта ES2015
-    существовал только один вариант, как сделать что-то в JS асинхронно — воспользоваться коллбеками, которые будут
-    вызваны когда-нибудь позже. Есть много API, которые работают на коллбеках, например, слушатели событий и таймеры.
-    2. [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise). В
-    современном стандарте есть еще один инструмент асинхронности — Promise.
-    3. Одно из частых использований асинхронности связано с запросами на сервер. Чтобы в нем разобраться, нужно
-    сначала узнать, что такое
-    [HTTP](https://ulearn.me/Course/Hackerdom/Istoriya_HTTP_5ad7c7fc-d551-416b-b6c7-f844de0b89c3). Посмотри
-    все видео из раздела "протокол HTTP".
-    4. Смотреть информацию о http-запросах можно во вкладке Network (сеть) инструментов разработчика в браузере.
-    Подробно прочитать можно
-    [в блоге Google Developers](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#analyze).
-    Статья на английском, если у тебя не очень хорошо с английским, досточно посмотреть картинки. Обязательно
-    попробуй получить информацию о запросах, разберись: где видны коды ответов; как узнать, какие заголовки пришли;
-    какие данные прислал сервер; какие данные были отправлены на сервер.
-  </markdown>
+    До стандарта ES2015 существовал только один вариант, как сделать что-то в JS асинхронно — воспользоваться коллбеками, которые будут вызваны когда-нибудь позже. Есть много API, которые работают на коллбеках, например, слушатели событий и таймеры.
+    
+    Callback-функция (или обратный вызов) - это функция, переданная в другую функцию в качестве аргумента, которая затем вызывается по завершению какого-либо действия.
+    
+    Краткий пример:
+    <code>
+      function greeting(name) {
+        alert('Hello ' + name);
+      }
+
+      function processUserInput(callback) {
+        var name = prompt('Please enter your name.');
+        callback(name);
+      }
+
+      processUserInput(greeting);
+    </code>
+    Выше приведён пример синхронного коллбэка, поскольку функция processUserInput выполняется синхронно.
+    
+    Callback-функции часто используются для продолжения выполнения кода после завершения асинхронной операции - они называются асинхронными коллбэками.
+    <code>
+      async function pageLoader(callback) {
+        const data = await fetch('/ru/docs/Glossary/Callback_function')
+        callback(data)
+      }
+
+      function onPageLoadingFinished(pageData) {
+        console.log('Page was sucessfully loaded!')
+        console.log('Response:')
+        console.log(pageData)
+      }
+
+      pageLoader(onPageLoadingFinished)
+    </code>
+    Функции, принимающие в качестве аргументов другие функции или возвращающие функции в качестве результата, называют 'функциями высшего порядка'. Техника обратного вызова играет важную роль для достижения повторного использования кода.
+    </markdown>
 </slide>
