@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="a224841e-dbe7-4804-8cd7-c6faaa27b63b"
+title="Тесты">
+	<question.choice id="IntroductionPromiseTest_1" multiple="true" shuffle="true">
+		<text>
+			В каких состояниях может находиться Promise?
+		</text>
+		<item id="7479b63b-026f-49d0-9a44-4462eb4d31dd" isCorrect="true">fulfilled </item>
+		<item id="32694b8f-d837-4e80-8fdd-373231c2a063" isCorrect="false">transferred </item>
+		<item id="fd451a50-5b4c-4ff0-85cf-0d9d4f0f5582" isCorrect="true">rejected </item>
+		<item id="180976c1-7106-4751-b3ca-74ca6e86eb1b" isCorrect="true">pending </item>
+	</question.choice>
+
+	<question.choice id="IntroductionPromiseTest_2" multiple="true" shuffle="true">
+		<text>
+			Выберете верные утверждения:
+		</text>
+		<item id="f67581bc-6528-470c-8fcd-f416dcb95775" isCorrect="true">Объект Promise создаётся при помощи ключевого слова new и своего конструктора. </item>
+		<item id="d28db50c-c023-4d59-ada3-7ed7fc4d0a75" isCorrect="true">Интерфейс Promise представляет собой обёртку для значения, неизвестного на момент создания промиса. </item>
+		<item id="7c526443-e052-4525-8f35-6f93d4f73077" isCorrect="false">Объект Promise  используется для синхронных вычислений.</item>
+		<item id="4b28eb9f-9fe1-420f-af17-45d9ab9f8f34" isCorrect="false">Аргумент функции executor resolve отклоняет исполнение промиса.</item>
+	</question.choice>
+</slide.quiz>
