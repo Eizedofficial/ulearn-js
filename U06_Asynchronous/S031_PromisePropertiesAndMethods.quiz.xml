@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="2a6b1dce-c3ba-472f-9acf-120ee6f3591d"
+title="Тесты">
+	<question.choice id="PromisePropertiesAndMethodsTest_1" multiple="true" shuffle="true">
+		<text>
+			Какой метод возвращает промис, который исполняется после того, как все полученные промисы завершены?
+		</text>
+		<item id="72831510-41ab-414c-a242-ac5329395e77" isCorrect="true">race() </item>
+		<item id="91121197-be78-4089-b18d-96c23814f37e" isCorrect="true">reject() </item>
+		<item id="68ebd8d2-22f2-4ead-a3a9-4044d9ae3dbd" isCorrect="true">resolve() </item>
+		<item id="4461e717-c947-428b-b795-7019263b046e" isCorrect="false">allSettled()  </item>
+	</question.choice>
+
+	<question.choice id="PromisePropertiesAndMethodsTest_2" multiple="true" shuffle="true">
+		<text>
+			Выберете свойства Promise:
+		</text>
+		<item id="fb985101-91be-45be-a4da-42d4ce83f70e" isCorrect="false">time </item>
+		<item id="b5650615-8024-4224-9bd3-dfd0bc9ff8e6" isCorrect="true">length  </item>
+		<item id="c7a30995-fcde-44ae-b830-3be335d78958" isCorrect="true">prototype </item>
+		<item id="e800d231-7df6-4906-8565-9fc45d459b71" isCorrect="false">race</item>
+	</question.choice>
+</slide.quiz>
