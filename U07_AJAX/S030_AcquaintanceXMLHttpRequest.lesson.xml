@@ -18,11 +18,11 @@
 		// если код ответа сервера не 200, то это ошибка
 		if (xhr.status != 200) {
 		// обработать ошибку
-		alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
-		} else {
-		// вывести результат
-		alert( xhr.responseText ); // responseText -- текст ответа.
-		}
+		    alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
+		    } else {
+		    // вывести результат
+		    alert( xhr.responseText ); // responseText -- текст ответа.
+		    }
 		</code>
 
 		Далее будут рассмотрим основные методы и свойства объекта XMLHttpRequest, в том числе, которые были использованы в этом коде.
