@@ -29,17 +29,16 @@
 		xhr.send(); // (1)
 
 		xhr.onreadystatechange = function() { // (3)
-		if (xhr.readyState != 4) return;
+		    if (xhr.readyState != 4) return;
 
-		button.innerHTML = 'Готово!';
+		    button.innerHTML = 'Готово!';
 
-		if (xhr.status != 200) {
-		    alert(xhr.status + ': ' + xhr.statusText);
-		    } 
-		else {
-		    alert(xhr.responseText);
-		    }
-
+		    if (xhr.status != 200) {
+		        alert(xhr.status + ': ' + xhr.statusText);
+		        } 
+		    else {
+		        alert(xhr.responseText);
+		        }
 		}
 
 		button.innerHTML = 'Загружаю...'; // (2)
