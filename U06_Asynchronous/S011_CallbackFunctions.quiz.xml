@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="8cd3c7de-8fd9-4ed6-abe7-af39aa99d071"
+title="Тесты">
+    <question.choice id="CallbackFunctionsTest_1" multiple="true" shuffle="true">
+        <text>
+            Выберете верные утверждения:
+        </text>
+        <item id="b4580c83-413b-44a2-bb3e-4644c852f1a6" isCorrect="true">Callback-функции дают возможность динамического изменения функциональности.</item>
+        <item id="8b2ca17f-ecf4-45f9-8fe4-dc27603d35ed" isCorrect="true">Callback-функции дают возможность неограниченного количества вариантов вызываемой функции без изменения базового кода. </item>
+        <item id="3462c06b-150e-4738-8eaf-c7afccb775b7" isCorrect="false">Callback-функции улучшают читаемость кода.</item>
+        <item id="4836a726-3ec4-495c-920a-e155c0b22806" isCorrect="false">Callback-функции увеличивают производимость.</item>
+    </question.choice>
+    
+     <question.choice id="CallbackFunctionsTest_2" multiple="false" shuffle="true">
+        <text>
+            Как называются функции, принимающие в качестве аргументов другие функции или возвращающие функции в качестве результата?
+        </text>
+        <item id="3fc35301-d1d8-4a0f-80ae-ead670763534" isCorrect="false">функции низшего порядка</item>
+        <item id="fd3c7d6e-ef71-4bb6-bd33-027ab780dd82" isCorrect="true">функции высшего порядка </item>
+        <item id="ee6dbd9a-0a76-478b-8613-94fbd1f093ab" isCorrect="false">функции среднего порядка</item>
+        <item id="580c65c9-f1ca-4b8a-9d4d-02cc53c484d6" isCorrect="false">функции нулевого порядка</item>
+    </question.choice>    
+</slide.quiz>
