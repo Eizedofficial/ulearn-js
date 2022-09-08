@@ -1,22 +1,60 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<slide.quiz xmlns="https://ulearn.me/schema/v2" id="bfeb03f7-0a58-474d-a16e-bda542e78cb6"
-title="Тесты">
-    <question.choice id="dbTest1" multiple="true" shuffle="true">
-        <text>
-            Выберите БД, не являющиеся реляционными:
-        </text>
-        <item id="51bf3cde-a7dd-4956-a398-a0d8a50b1f49" isCorrect="true">Cassandra</item>
-        <item id="9306d539-cb5f-4c87-97e5-86a5947f438b" isCorrect="false">MySQL</item>
-        <item id="d7d01764-9d16-4925-8247-902b0bf58ab0" isCorrect="false">OracleDB</item>
-        <item id="04c4d3a7-389b-4326-8a0c-b5ccc46327a2" isCorrect="true">MongoDB</item>
-    </question.choice>
-    <question.choice id="dbTest2" multiple="false" shuffle="true">
-        <text>
-            Какой метод применяется для выполнения запросов у объекта подключения?
-        </text>
-        <item id="bd19bfee-afd4-4c73-8846-ec9865b89eac" isCorrect="false">execute()</item>
-        <item id="c04001b2-0bf3-4604-b701-6d6305d2683c" isCorrect="true">query()</item>
-        <item id="004769e1-1a9b-46b6-8dfc-d0c2c53e6eb0" isCorrect="false">connect()</item>
-        <item id="36374d45-e04b-4ed5-b6b0-d9bd51a38913" isCorrect="false">end()</item>
-    </question.choice>
-</slide.quiz>
+<?xml version='1.0' encoding='utf-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Подключение к MySQL" id="66b86558-9ae6-4617-8937-1f39247a1881">
+  <markdown>
+    Для создания подключения применяется метод createConnection(), который в качестве параметра принимает настройки подключения и возвращает объект, представляющий подключение.
+    <code xml:space="preserve" >
+        const mysql = require("mysql2");
+  
+        const connection = mysql.createConnection({
+          host: "localhost",
+          user: "root",
+          database: "usersdb",
+          password: "пароль_от_сервера"
+        });
+    </code>
+
+    Передаваемые в метод настройки конфигурации могут содержать ряд параметров. Наиболее используемые из них:
+
+    `host` – хост, на котором запущен сервер mysql. По умолчанию имеет значение "localhost".
+
+    `port` – номер порта, на котором запущен сервер mysql. По умолчанию имеет значение "3306".
+
+    `user` – пользователь MySQL, который используется для подключения.
+
+    `password` – пароль для пользователя MySQL.
+
+    `database` – имя базы данных, к которой идет подключение. Необязательный параметр. Если он не указан, то подключение идет в целом к северу.
+
+    `charset` – кодировка для подключения, например, по умолчанию используется "UTF8_GENERAL_CI".
+
+    `timezone` – часовой пояс сервера MySQL. По умолчанию имеет значение "local".
+
+    Для установки подключения используется метод `connect()` объекта connection:
+    <code xml:space="preserve" >
+        const mysql = require("mysql2");
+  
+        const connection = mysql.createConnection({
+          host: "localhost",
+          user: "root",
+          database: "usersdb",
+          password: "пароль_от_сервера"
+        });
+         connection.connect(function(err){
+            if (err) {
+              return console.error("Ошибка: " + err.message);
+            }
+            else{
+              console.log("Подключение к серверу MySQL успешно установлено");
+            }
+         });
+    </code>
+
+    Метод connect() принимает функцию, параметр которой содержит ошибку, которая возникла при подключении.
+
+    Для закрытия подключения применяется метод `end()`. Он гарантирует, что перед закрытием подключения к бд будут выполнены все оставшиеся запросы, которые не завершились к моменту вызова метода.
+
+    Если мы не вызовем этот метод, то подключение будет оставаться активным, и приложение Node.js продолжит свою работу, пока сервер MySQL не закроет подключение.
+
+    Если же нам надо немедленно закрыть подключение, не дожидаясь выполнения оставшихся запросов, то в этом случае можно применить метод `destroy()`.
+  </markdown>
+</slide>
