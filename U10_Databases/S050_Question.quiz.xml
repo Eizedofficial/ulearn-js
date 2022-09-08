@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="e3ab326d-64d7-41e0-8fba-c614d7b74c16"
+title="Тесты">
+  <question.choice id="dbTest3" multiple="false" shuffle="true">
+    <text>
+      Какой метод применяется для выполнения запросов у объекта подключения?
+    </text>
+    <item id="bd19bfee-afd4-4c73-8846-ec9865b89eac" isCorrect="false">execute()</item>
+    <item id="c04001b2-0bf3-4604-b701-6d6305d2683c" isCorrect="true">query()</item>
+    <item id="004769e1-1a9b-46b6-8dfc-d0c2c53e6eb0" isCorrect="false">connect()</item>
+    <item id="36374d45-e04b-4ed5-b6b0-d9bd51a38913" isCorrect="false">end()</item>
+  </question.choice>
+  <question.choice id="dbTest4" multiple="false" shuffle="true">
+    <text>
+      Как называется функция обратного вызова, через параметры которой можно получить результаты выполнения sql-команды или возникшую ошибку?
+    </text>
+    <item id="8a563784-71ec-4ea4-8386-d98d4a41def9" isCorrect="false">sqlString</item>
+    <item id="1edffd80-971f-43f7-bf99-1d9a74d75787" isCorrect="false">require</item>
+    <item id="58ec76d1-34a9-4b85-af15-975e9f982088" isCorrect="true">callback</item>
+    <item id="b21d5aca-a888-4c0f-8c08-575c19be3670" isCorrect="false">next</item>
+  </question.choice>
+</slide.quiz>
