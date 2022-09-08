@@ -17,6 +17,6 @@ title="Тесты">
     <item id="3bf7ed9d-96cc-4676-a68e-a2687ea6cd71" isCorrect="false">создание модульных обработчиков маршрутов</item>
     <item id="35b1b63e-2ce1-4f73-b20c-272dc8aa3644" isCorrect="false">создание монтируемых обработчиков маршрутов</item>
     <item id="7954f0fa-d5fb-4936-aac2-bf67f66fbf20" isCorrect="false">является комплексом промежуточных обработчиков и маршрутизации</item>
-    <item id="d4a7e60d-69fd-4fb6-ae5b-402229096f99" isCorrect="true">все вышеперечисленное</item>
+    <item id="d4a7e60d-69fd-4fb6-ae5b-402229096f99" isCorrect="true">все перечисленное</item>
   </question.choice>
 </slide.quiz>
