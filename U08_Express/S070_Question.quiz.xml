@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="f260c5b5-80a8-4626-9607-aa17cd3ff563"
+title="Тесты">
+  <question.choice id="expressTest5" multiple="false" shuffle="true">
+    <text>
+      В каком формате может быть получен ответ, поступающий из функции промежуточной обработки?
+    </text>
+    <item id="1cf8ec5a-17e4-456d-af27-69e16cfebf9d" isCorrect="false">HTML страница</item>
+    <item id="0af0765e-d7a7-45c0-8539-768078cd23e7" isCorrect="false">текстовое сообщение</item>
+    <item id="c4bc8a5e-0655-4817-88a8-73037975f96f" isCorrect="false">строка JSON</item>
+    <item id="484fbb4b-c25a-4a10-855c-426b218375d2" isCorrect="true">все вышеперечисленное</item>
+  </question.choice>
+  <markdown>
+    <code xml:space="preserve" language="javascript">
+            var bodyParser = require('body-parser');
+            var methodOverride = require('method-override');
+
+            app.use(bodyParser());
+            app.use(methodOverride());
+        </code>
+  </markdown>
+  <question.choice id="expressTest6" multiple="false" shuffle="true">
+        <text>
+          Где должен быть определен промежуточный обработчик для обработки ошибок app.use(function(err, req, res, next){})?
+        </text>
+        <item id="846d8f92-376e-4ee0-bed9-52ff36a8ce0f" isCorrect="false">перед всеми app.use()</item>
+        <item id="4a3aeab8-40a5-4ba1-acea-cb3fda2facd2" isCorrect="false">между app.use()</item>
+        <item id="a419f7b1-bae7-4afb-a991-5bb484208dcf" isCorrect="true">после всех app.use()</item>
+        <item id="62434b1c-39d4-4520-9af9-2f2aa5ec7f82" isCorrect="false">место не имеет значения</item>
+    </question.choice>
+</slide.quiz>
