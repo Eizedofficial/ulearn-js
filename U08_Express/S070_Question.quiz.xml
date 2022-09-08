@@ -8,7 +8,7 @@ title="Тесты">
     <item id="1cf8ec5a-17e4-456d-af27-69e16cfebf9d" isCorrect="false">HTML страница</item>
     <item id="0af0765e-d7a7-45c0-8539-768078cd23e7" isCorrect="false">текстовое сообщение</item>
     <item id="c4bc8a5e-0655-4817-88a8-73037975f96f" isCorrect="false">строка JSON</item>
-    <item id="484fbb4b-c25a-4a10-855c-426b218375d2" isCorrect="true">все вышеперечисленное</item>
+    <item id="484fbb4b-c25a-4a10-855c-426b218375d2" isCorrect="true">в любом</item>
   </question.choice>
   <markdown>
     <code xml:space="preserve" language="javascript">
