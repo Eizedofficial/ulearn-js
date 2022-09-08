@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="ea49b07f-bc8f-45b0-8690-25effc822d5f"
+title="Тесты">
+  <question.choice id="routingTest6" multiple="true" shuffle="true">
+    <text>
+      Для чего служит метод app.route()?
+    </text>
+    <item id="7ada31b0-ece5-429c-98be-586cd00137f2" isCorrect="true">для создания модульных обработчиков маршрутов</item>
+    <item id="5d65dfef-a0a2-4f82-a342-c235a58872e2" isCorrect="false">для обработки ошибок</item>
+    <item id="e27746f8-77d5-439e-8490-daa0d53f7352" isCorrect="false">для удаления запросов</item>
+    <item id="c2f48180-539e-4665-8315-f3ff21b8209d" isCorrect="true">для создания обработчиков маршрутов, образующих цепочки</item>
+  </question.choice>
+  <question.choice id="routingTest7" multiple="false" shuffle="true">
+    <text>
+      Выбери особенности класса express.Router:
+    </text>
+    <item id="3bf7ed9d-96cc-4676-a68e-a2687ea6cd71" isCorrect="false">создание модульных обработчиков маршрутов</item>
+    <item id="35b1b63e-2ce1-4f73-b20c-272dc8aa3644" isCorrect="false">создание монтируемых обработчиков маршрутов</item>
+    <item id="7954f0fa-d5fb-4936-aac2-bf67f66fbf20" isCorrect="false">является комплексом промежуточных обработчиков и маршрутизации</item>
+    <item id="d4a7e60d-69fd-4fb6-ae5b-402229096f99" isCorrect="true">все вышеперечисленное</item>
+  </question.choice>
+</slide.quiz>

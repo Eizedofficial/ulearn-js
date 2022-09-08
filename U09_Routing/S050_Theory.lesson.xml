@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="app.route() и express.Router" id="1c243482-28e3-4dd4-b2bf-dfd7e94f9efb">
+  <markdown>
+    Метод app.route() позволяет создавать обработчики маршрутов, образующие цепочки, для пути маршрута. Поскольку путь указан в одном расположении, удобно создавать модульные маршруты, чтобы минимизировать избыточность и количество опечаток. Дополнительная информация о маршрутах приводится в документации Router().
+
+    Ниже приведен пример объединенных в цепочку обработчиков маршрутов, определенных с помощью функции app.route().
+    <code xml:space="preserve" >
+        app
+        .route('/book')
+        .get(function (req, res) {
+          res.send('Get a random book');
+        })
+        .post(function (req, res) {
+          res.send('Add a book');
+        })
+        .put(function (req, res) {
+          res.send('Update the book');
+        });
+    </code>
+
+    С помощью класса express.Router можно создавать модульные, монтируемые обработчики маршрутов. Экземпляр Router представляет собой комплексную систему промежуточных обработчиков и маршрутизации - по этой причине его часто называют "мини-приложением".
+
+    В приведенном ниже примере создается маршрутизатор в виде модуля, в него загружается функция промежуточной обработки, определяется несколько маршрутов, и модуль маршрутизатора монтируется в путь в основном приложении.
+
+    Создайте файл маршрутизатора с именем birds.js в каталоге приложения со следующим содержанием:
+    <code xml:space="preserve" >
+        var express = require('express');
+        var router = express.Router();
+
+        // middleware that is specific to this router
+        router.use(function timeLog(req, res, next) {
+          console.log('Time: ', Date.now());
+          next();
+        });
+        // define the home page route
+        router.get('/', function (req, res) {
+          res.send('Birds home page');
+        });
+        // define the about route
+        router.get('/about', function (req, res) {
+          res.send('About birds');
+        });
+
+        module.exports = router;
+    </code>
+
+    Потом загрузите модуль маршрутизации в приложение:
+    <code xml:space="preserve" >
+        var birds = require('./birds');
+
+        app.use('/birds', birds);
+    </code>
+
+    Данное приложение теперь сможет обрабатывать запросы, адресованные ресурсам /birds и /birds/about, а также вызывать специальную функцию промежуточной обработки timeLog данного маршрута.
+  </markdown>
+</slide>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="e271c66e-5f90-4f9c-a141-18c1ef46bea2"
+title="Тесты">
+  <question.choice id="routingTest3" multiple="true" shuffle="true">
+    <text>
+      Какие задачи могут выполнять функции промежуточной обработки?
+    </text>
+    <item id="8b5b072d-fe71-4a74-b2ce-34870609461a" isCorrect="true">внесение изменений в объекты запросов и ответов</item>
+    <item id="c7da0ebe-c788-46bc-bf24-14ca8f190c85" isCorrect="true">завершение цикла “запрос-ответ”</item>
+    <item id="976491ab-c773-4697-a817-9a9eceae79f9" isCorrect="true">обработка ошибок</item>
+    <item id="cf1057e7-2e56-47e0-838d-5b3c65d07497" isCorrect="true">вызов следующего промежуточного обработчика из стека</item>
+  </question.choice>
+  <question.choice id="routingTest4" multiple="false" shuffle="true">
+    <text>
+      В чем разница между middleware для обработки ошибок и обычной функцией middleware?
+    </text>
+    <item id="9623dc57-f00f-411e-b719-ca0017b5bf53" isCorrect="false">тип функций</item>
+    <item id="7aabd5fd-61f6-4cdc-ba04-a32c80711db0" isCorrect="true">количество параметров</item>
+    <item id="98de88a6-e6dc-49ca-a5d1-a4c04e4048d7" isCorrect="false">логика</item>
+    <item id="e6cb5de3-0eea-484b-b6a4-416e83b1bf19" isCorrect="false">абсолютно разные функции</item>
+  </question.choice>
+  <question.choice id="routingTest5" multiple="true" shuffle="true">
+    <text>
+      На каких уровнях в приложении можно применять функции middleware?
+    </text>
+    <item id="f03b6a21-3710-4d0c-b441-a6fbe2997925" isCorrect="true">уровень маршрута</item>
+    <item id="45f4a6b8-e470-4d75-a5bb-838b621ae038" isCorrect="true">уровень маршрутизатора</item>
+    <item id="3e7a3393-634d-46f2-ac33-368cd98ef151" isCorrect="false">уровень метода</item>
+    <item id="bbcdc964-84b0-4f82-a203-7b31a7b7602b" isCorrect="true">уровень приложения</item>
+  </question.choice>
+</slide.quiz>
