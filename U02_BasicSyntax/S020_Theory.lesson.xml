@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<slide xmlns="https://ulearn.me/schema/v2" title="Типы данных" id="7ac1f6d9-41d6-4309-8eda-8786ccc3f990">
+<slide xmlns="https://ulearn.me/schema/v2" title="Типы данных" id="9ad89717-ea79-40fc-80db-b9aef36dae09">
   <markdown>
     Значение в JavaScript всегда относится к данным определённого типа. Например, это может быть строка или число.
 
