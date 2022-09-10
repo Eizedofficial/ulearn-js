@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="de18fec4-37ad-40b9-a5e5-01e48f4a5eb3"
+title="Тесты">
+    <question.choice id="allowedVariablesQuestion" multiple="true" shuffle="true">
+        <text>
+            Какие переменные будут разрешены компилятором?
+        </text>
+        <item id="03307f6d-202d-4fe8-9768-10c86009fc14" isCorrect="true"
+            explanation="Знаки $ и _ разрешены для использования в именах переменных">let _userName</item>
+        <item id="be04e9c4-ed87-4103-95f0-085d7cbda9b1" isCorrect="false"
+            explanation="Начинать название переменной с цифры нельзя">let 1username</item>
+        <item id="69d3dab3-f545-41f4-8688-de7304095a4e" isCorrect="true"
+            explanation="Знаки $ и _ разрешены для использования в именах переменных">let $USERNAME</item>
+        <item id="0975f72b-1f62-4526-b60d-67f123c1daca" isCorrect="false"
+            explanation="В именах переменных нельзя использовать знаки кроме $ и _">let *userName</item>
+    </question.choice>
+</slide.quiz>
