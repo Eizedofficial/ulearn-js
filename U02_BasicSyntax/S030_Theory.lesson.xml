@@ -60,7 +60,7 @@
     Чтобы `prompt` хорошо выглядел в IE, рекомендуется всегда указывать второй параметр:
 
     <code>
-    let test = prompt("Test", ''); // <-- для IE
+    let test = prompt("Test", ''); // для IE
     </code>
 
     ## confirm
