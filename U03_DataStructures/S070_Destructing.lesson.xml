@@ -24,10 +24,11 @@
 // у нас есть массив с именем и фамилией
 let arr = ["Ilya", "Kantor"]
 
-*// деструктурирующее присваивание
+// деструктурирующее присваивание
 // записывает firstName = arr[0]
 // и surname = arr[1]
-let [firstName, surname] = arr;*alert(firstName); // Ilya
+let [firstName, surname] = arr;
+alert(firstName); // Ilya
 alert(surname);  // Kantor
 </code>
 
@@ -65,8 +66,9 @@ let surname = arr[1];
 Нежелательные элементы массива также могут быть отброшены с помощью дополнительной запятой:
 
 <code>
-*// второй элемент не нужен
-let [firstName, , title] = ["Julius", "Caesar", "Consul", "of the Roman Republic"];*alert( title ); // Consul
+// второй элемент не нужен
+let [firstName, , title] = ["Julius", "Caesar", "Consul", "of the Roman Republic"];
+alert( title ); // Consul
 </code>
 
 В примере выше второй элемент массива пропускается, а третий присваивается переменной `title`, оставшиеся элементы массива также пропускаются (так как для них нет переменных).
@@ -107,7 +109,8 @@ let user = {
 };
 
 // цикл по ключам и значениям
-*for (let [key, value] of Object.entries(user)) {*alert(`${key}:${value}`); // name:John, затем age:30
+for (let [key, value] of Object.entries(user)) {
+  alert(`${key}:${value}`); // name:John, затем age:30
 }
 </code>
 
@@ -118,8 +121,9 @@ let user = new Map();
 user.set("name", "John");
 user.set("age", "30");
 
-*// Map перебирает как пары [ключ, значение], что очень удобно для деструктурирования
-for (let [key, value] of user) {*alert(`${key}:${value}`); // name:John, затем age:30
+// Map перебирает как пары [ключ, значение], что очень удобно для деструктурирования
+for (let [key, value] of user) {
+  alert(`${key}:${value}`); // name:John, затем age:30
 }
 </code>
 
@@ -183,15 +187,17 @@ let [name1, name2, *...titles*] = ["Julius", "Caesar", "Consul", "of the Roman R
 Если в массиве меньше значений, чем в присваивании, то ошибки не будет. Отсутствующие значения считаются неопределёнными:
 
 <code>
-*let [firstName, surname] = [];*alert(firstName); // undefined
+let [firstName, surname] = [];
+alert(firstName); // undefined
 alert(surname); // undefined
 </code>
 
 Если мы хотим, чтобы значение «по умолчанию» заменило отсутствующее, мы можем указать его с помощью `=`:
 
 <code>
-*// значения по умолчанию
-let [name = "Guest", surname = "Anonymous"] = ["Julius"];*alert(name);    // Julius (из массива)
+// значения по умолчанию
+let [name = "Guest", surname = "Anonymous"] = ["Julius"];
+alert(name);    // Julius (из массива)
 alert(surname); // Anonymous (значение по умолчанию)
 </code>
 
@@ -235,7 +241,8 @@ let options = {
   height: 200
 };
 
-*let {title, width, height} = options;*alert(title);  // Menu
+let {title, width, height} = options;
+alert(title);  // Menu
 alert(width);  // 100
 alert(height); // 200
 </code>
@@ -260,8 +267,9 @@ let options = {
   height: 200
 };
 
-*// { sourceProperty: targetVariable }
-let {width: w, height: h, title} = options;*// width -> w
+// { sourceProperty: targetVariable }
+let {width: w, height: h, title} = options;
+// width -> w
 // height -> h
 // title -> title
 
@@ -279,7 +287,8 @@ let options = {
   title: "Menu"
 };
 
-*let {width = 100, height = 200, title} = options;*alert(title);  // Menu
+let {width = 100, height = 200, title} = options;
+alert(title);  // Menu
 alert(width);  // 100
 alert(height); // 200
 </code>
@@ -295,7 +304,7 @@ let options = {
   title: "Menu"
 };
 
-*let {width = prompt("width?"), title = prompt("title?")} = options;*alert(title);  // Menu
+let {width = prompt("width?"), title = prompt("title?")} = options;*alert(title);  // Menu
 alert(width);  // (результат prompt)
 </code>
 
@@ -306,7 +315,7 @@ let options = {
   title: "Menu"
 };
 
-*let {width: w = 100, height: h = 200, title} = options;*alert(title);  // Menu
+let {width: w = 100, height: h = 200, title} = options;*alert(title);  // Menu
 alert(w);      // 100
 alert(h);      // 200
 </code>
@@ -342,9 +351,10 @@ let options = {
   width: 100
 };
 
-*// title = свойство с именем title
+// title = свойство с именем title
 // rest = объект с остальными свойствами
-let {title, ...rest} = options;*// сейчас title="Menu", rest={height: 200, width: 100}
+let {title, ...rest} = options;
+// сейчас title="Menu", rest={height: 200, width: 100}
 alert(rest.height);  // 200
 alert(rest.width);   // 100
 </code>
@@ -384,7 +394,7 @@ let title, width, height;
 let title, width, height;
 
 // сейчас всё работает
-*(*{title, width, height} = {title: "Menu", width: 200, height: 100}*)*;
+({title, width, height} = {title: "Menu", width: 200, height: 100});
 
 alert( title ); // Menu
 </code>
@@ -474,7 +484,7 @@ let options = {
 };
 
 // ...и она немедленно извлекает свойства в переменные
-function showMenu(*{title = "Untitled", width = 200, height = 100, items = []}*) {
+function showMenu({title = "Untitled", width = 200, height = 100, items = []}) {
   // title, items – взято из options,
   // width, height – используются значения по умолчанию
   alert( `${title} ${width} ${height}` ); // My Menu 200 100
@@ -492,12 +502,13 @@ let options = {
   items: ["Item1", "Item2"]
 };
 
-*function showMenu({
+function showMenu({
   title = "Untitled",
   width: w = 100,  // width присваиваем в w
   height: h = 200, // height присваиваем в h
   items: [item1, item2] // первый элемент items присваивается в item1, второй в item2
-}) {*alert( `${title} ${w} ${h}` ); // My Menu 100 200
+}) {
+  alert( `${title} ${w} ${h}` ); // My Menu 100 200
   alert( item1 ); // Item1
   alert( item2 ); // Item2
 }
@@ -527,7 +538,7 @@ showMenu(); // так была бы ошибка
 Мы можем исправить это, сделав `{}` значением по умолчанию для всего объекта параметров:
 
 <code>
-function showMenu({ title = "Menu", width = 100, height = 200 } *= {}*) {
+function showMenu({ title = "Menu", width = 100, height = 200 } = {}) {
   alert( `${title} ${width} ${height}` );
 }
 

@@ -270,10 +270,10 @@ while (true) {
 let str = "Ослик Иа-Иа посмотрел на виадук";
 let target = "Иа";
 
-*let pos = -1;
+let pos = -1;
 while ((pos = str.indexOf(target, pos + 1)) != -1) {
   alert( pos );
-}*
+}
 </code>
 
 `str.lastIndexOf(substr, position)`
@@ -301,7 +301,7 @@ if (str.indexOf("Widget")) {
 <code>
 let str = "Widget with id";
 
-*if (str.indexOf("Widget") != -1) {*alert("Совпадение есть"); // теперь работает
+if (str.indexOf("Widget") != -1) {alert("Совпадение есть"); // теперь работает
 }
 </code>
 
@@ -320,7 +320,7 @@ integer). Дробная часть, в случае, если она прису
 alert( ~2 ); // -3, то же, что -(2+1)
 alert( ~1 ); // -2, то же, что -(1+1)
 alert( ~0 ); // -1, то же, что -(0+1)
-*alert( ~-1 ); // 0, то же, что -(-1+1)*
+alert( ~-1 ); // 0, то же, что -(-1+1)
 </code>
 
 Таким образом, `~n` равняется 0 только при `n == -1` (для любого `n`, входящего в 32-разрядные целые числа со знаком).
