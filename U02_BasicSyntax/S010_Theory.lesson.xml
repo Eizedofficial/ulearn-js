@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<slide xmlns="https://ulearn.me/schema/v2" title="Теория" id="7ac1f6d9-41d6-4309-8eda-8786ccc3f990">
+<slide xmlns="https://ulearn.me/schema/v2" title="Переменные и константы" id="7ac1f6d9-41d6-4309-8eda-8786ccc3f990">
   <markdown>
-    # Переменные и константы
-
     ### Переменные
 
     Программы на JavaScript состоят из инструкций. Одна инструкция может располагаться из нескольких строчках.
