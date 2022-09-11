@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <slide id="9ddd54a6-f9db-415c-95a9-bbd169003b20" title="Дата и время" xmlns="https://ulearn.me/schema/v2">
-  &lt;markdown>
+<markdown>
 Встречайте новый встроенный объект: [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date). Он содержит дату и время, а также предоставляет методы управления ими.
 
 Например, его можно использовать для хранения времени 

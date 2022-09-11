@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <slide.quiz xmlns="https://ulearn.me/schema/v2" id="c9399e26-aae0-44e6-b1a4-588ef802105e"
 title="Тесты">
+  <markdown>
+    <code>
+    for (let i = 0; i &lt; 5; i++) {
+      if (i % 2 == 0) {
+        console.log(i * 2);
+        continue;
+      }
+      console.log(i);
+    }
+    </code>
+  </markdown>
 	<question.choice id="loopTest" multiple="false" shuffle="true">
 		<text>
-			Какие числа отобразятся в консоли после выполнения кода:
-      <code>
-      for (let i = 0; i < 5; i++) {
-        if (i % 2 == 0) {
-          console.log(i * 2);
-          continue;
-        }
-        console.log(i);
-      }
-      </code>
+			Какие числа отобразятся в консоли после выполнения кода?
 		</text>
 		<item id="bc8ff35e-7648-4239-bdba-1d5d9b45d5cd" isCorrect="false">
       1, 2, 3, 4, 5
