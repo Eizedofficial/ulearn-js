@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="928af94b-1f5d-4741-96d4-3f2a0371992f"
+title="Тесты">
+	<question.choice id="stringTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="dd0d3f09-89bd-4442-9b93-26741617aa65" isCorrect="false">
+      Метод substr является синонимом метода substring 
+    </item>
+		<item id="ef2f26bf-4b6a-4ac3-b54b-5ca78bd8e600" isCorrect="true">
+      Верно, что "1" == 1
+    </item>
+		<item id="76f1bda0-57c5-474a-aea1-1175fd6d324c" isCorrect="false">
+      Внутренний формат для строк в JS - UTF-8
+    </item>
+		<item id="e44de558-abcf-4b98-8aa4-8766f950dc19" isCorrect="false">
+      Спецсимволы должны экранироваться слэшем
+    </item>
+	</question.choice>
+</slide.quiz>

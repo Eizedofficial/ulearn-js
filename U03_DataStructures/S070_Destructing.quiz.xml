@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="fe356108-6bc3-4122-9864-f6a7136f4ad8"
+title="Тесты">
+	<question.choice id="destructuringTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="5f644876-6abf-4a2e-8496-565b809bd956" isCorrect="false">
+      Деструктуризация позволяет удалить из объекта лишние свойства
+    </item>
+		<item id="c3426833-0877-4b80-a8c4-2ed3bc565655" isCorrect="false">
+      С помощью спред оператора, примененного к строке, можно получить список символов
+    </item>
+		<item id="f58a972a-6631-46b8-ae4f-7a16eabed3d5" isCorrect="true">
+      Деструктуризация позволяет извлечь из массива список необходимых элементов
+    </item>
+		<item id="e993f486-27a6-4cf6-850e-6871f4eb20d5" isCorrect="true">
+      Деструктуризация позволяет получить новый объект на основе старого
+    </item>
+	</question.choice>
+</slide.quiz>

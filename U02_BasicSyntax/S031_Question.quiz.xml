@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="5c83027a-d2f8-4b91-902b-ff41fe4e5af4"
+title="Тесты">
+	<question.choice id="alertPromptConfirmTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="827e5fd3-2ee4-4330-892a-eebade6f1dcf" isCorrect="false">
+      Кнопка "Отмена" является опциональной для функции alert
+    </item>
+		<item id="3f1d1d34-f71c-46ad-9ca9-359bd114641a" isCorrect="true">
+      Prompt позволяет добавить текст по умолчанию
+    </item>
+		<item id="b79d243e-c5b0-4f80-9fc8-d451ba3ec065" isCorrect="false">
+      Prompt позволяет добавить несколько полей
+    </item>
+		<item id="287fdf2d-2f25-4fe2-b45e-aeb506726dc0" isCorrect="true">
+      Confirm содержит 2 кнопки
+    </item>
+	</question.choice>
+</slide.quiz>

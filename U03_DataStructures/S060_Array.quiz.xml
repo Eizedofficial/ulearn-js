@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="1c0a8119-e9dc-4aa6-bb53-8b31417e95e5"
+title="Тесты">
+	<question.choice id="arrayTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="5f090046-922c-4450-8509-22377b0956b9" isCorrect="false">
+      Массивы в JS имеют статическую длину
+    </item>
+		<item id="f60d203f-ac63-4915-8f84-c871d151345e" isCorrect="false">
+      Верно выражение ["a"] === ["a"]
+    </item>
+		<item id="ae219634-1d52-4496-b93f-e4926b534c8b" isCorrect="false">
+      Методы pop и unshift имеют одинаковую скорость работы
+    </item>
+		<item id="6444e5d4-f0e4-4947-8cca-08d9897ebf39" isCorrect="true">
+      Объединить массивы проще всего с помощью спред-оператора
+    </item>
+	</question.choice>
+</slide.quiz>

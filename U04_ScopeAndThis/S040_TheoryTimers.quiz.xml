@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="2e1c36e4-14ae-4519-9055-49368e9ac919"
+title="Тесты">
+	<question.choice id="timersTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="98f28413-f15c-454d-bcfc-566873da2fab" isCorrect="false">
+      Callback-функция переданная в setInterval выполнятся в первый без задержки по времени
+    </item>
+		<item id="1ecca22d-720d-4776-80b6-a674bb8c996d" isCorrect="true">
+      setInterval отличается от setTimeout тем, что выполняется многократно
+    </item>
+		<item id="a7cc43b0-22c1-40a6-808b-6fc7fd5bf288" isCorrect="true">
+      Выполнение callback-функции setInterval и setTimeout может быть отменено
+    </item>
+		<item id="cb5de4ef-2c52-47cb-8a43-8f761a9a0e3c" isCorrect="false">
+      setInterval и setTimeout принимают вторым параметром время в микросекундах
+    </item>
+	</question.choice>
+</slide.quiz>

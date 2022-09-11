@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="3e39e080-8eb2-4a6d-841d-cd1e7f6d995c"
+title="Тесты">
+	<question.choice id="typesTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения относительно типов Number и BigInt:
+		</text>
+		<item id="35ae83d1-1065-4687-8d5a-fdfa6952cf55" isCorrect="false">
+      Результатом сложения чисел типов Number и BigInt является число типа Number
+    </item>
+		<item id="5ff769dd-598b-4e36-af00-e2d7bf1cec69" isCorrect="false">
+      Результатом сложения чисел типов Number и BigInt является число типа BigInt
+    </item>
+		<item id="941268f1-e1d8-4df7-90f1-dfe44c2637c0" isCorrect="true">
+      Некоторые из чисел типа Number, значение которых выше максимального или ниже минимального, не могут быть представлены
+    </item>
+		<item id="e3794770-4a34-4df0-b13c-282e1748dd9e" isCorrect="false">
+      Тип BigInt поддерживает дробные числа
+    </item>
+	</question.choice>
+</slide.quiz>

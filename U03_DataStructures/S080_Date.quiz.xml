@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="19c292d0-4661-4958-a42d-b3a5245f8615"
+title="Тесты">
+	<question.choice id="dateTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="b3e07f56-f570-443d-8089-bc83ff86f5af" isCorrect="false">
+      Объект даты иммутабелен 
+    </item>
+		<item id="fc1a19eb-e0f5-474e-b5a6-1e5aec3ff663" isCorrect="false">
+      Даты можно сложить так: date1 + date2
+    </item>
+		<item id="dc3fa3c6-a8df-4962-84bb-43dc2a2a8c63" isCorrect="true">
+      Метод new объекта Date позволяет получить количество миллисекунд с 1 января 1970 года
+    </item>
+		<item id="d69b8516-b461-4811-9dcc-a8e975a45d91" isCorrect="true">
+      Объект Date имеет набор методов для получения и записи отдельных частей даты
+    </item>
+	</question.choice>
+</slide.quiz>

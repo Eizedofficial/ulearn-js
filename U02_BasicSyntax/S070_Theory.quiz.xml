@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="d105ab10-2983-447a-9594-d7af4a1fb2fe"
+title="Тесты">
+	<question.choice id="funcTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="eb6a39b1-b9d6-4198-9bd8-5a4d5d8369f9" isCorrect="false">
+      Если параметр функции не указан, то его значением становится null.
+    </item>
+		<item id="0da8bd5d-2086-4e37-b51b-a2d818fcc6e6" isCorrect="true">
+      Если в функции отсутствует ключевое слово return, то возвращается undefined
+    </item>
+		<item id="4fdf352b-2e71-43aa-9c04-3ee2fdc87788" isCorrect="false">
+      Для удобочитаемости кода функции следует именовать с большой буквы
+    </item>
+		<item id="9d6cfb04-7869-4577-aebd-2e0a8b0d8b31" isCorrect="true">
+      Перезаписывание глобальной константы внутри функции не вызывает ошибок
+    </item>
+	</question.choice>
+</slide.quiz>

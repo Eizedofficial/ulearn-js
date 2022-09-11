@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="05cd369a-aba1-421f-b857-e27d73a1ee58"
+title="Тесты">
+	<question.choice id="objectTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="84d0b7af-0039-45ef-8737-3c6372d9d364" isCorrect="false">
+      Нельзя изменить свойства объекта объявленного через const 
+    </item>
+		<item id="3d09322e-92f3-4eca-b2fb-3ada52383d45" isCorrect="false">
+      В качестве ключа можно использовать число
+    </item>
+		<item id="072e48f0-06f1-4555-a33e-fb63f051a368" isCorrect="false">
+      Чтобы пробежаться по всем свойствам объекта используется цикл for..of
+    </item>
+		<item id="225bfe4b-5e4d-4446-91c2-a8e3059d822c" isCorrect="true">
+      Удалить свойство можно с помощью ключевого слова delete
+    </item>
+	</question.choice>
+</slide.quiz>

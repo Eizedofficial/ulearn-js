@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="76429dde-9a9e-44a0-82f9-04da736f2369"
+title="Тесты">
+	<question.choice id="numbersTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="c5c337a0-0db5-408f-b04d-35924a4f8222" isCorrect="true">
+      Многократные операции над дробными числами могут привести к накоплению погрешности счета
+    </item>
+		<item id="48658279-2076-4c75-a889-aebcaaa588a3" isCorrect="false">
+      Объект Math содержит 3 метода для округления чисел
+    </item>
+		<item id="449e0a3a-fb33-4c9a-a62c-1f844ec56a1d" isCorrect="true">
+      Метод toString в качестве параметра может принимать систему счисления
+    </item>
+		<item id="943126ad-f6e5-4f28-899c-2a3f4ad5c328" isCorrect="false">
+      Оператор + является синонимом функции parseInt
+    </item>
+	</question.choice>
+</slide.quiz>

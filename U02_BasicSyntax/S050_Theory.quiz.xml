@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" id="ac1afc97-a303-46da-879f-4fbb414bc8f5"
+title="Тесты">
+	<question.choice id="ifTest" multiple="true" shuffle="true">
+		<text>
+			Выберите верные утверждения:
+		</text>
+		<item id="7703fb8d-06ca-4038-bd1b-cd736b6ff907" isCorrect="true">
+      Конструкция "if - else if" может не содержать блок "else"
+    </item>
+		<item id="b556a52a-8051-4775-af14-577ce121d14e" isCorrect="false">
+      В тернарном операторе может отсутствовать значение соответствующее блоку "else"
+    </item>
+		<item id="63736065-2bae-4343-98ca-4f51e782df72" isCorrect="false">
+      Последовательное использование тернарных операторов значительно упрощает чтение кода
+    </item>
+		<item id="cb2479ca-8d5c-4376-be41-1a7bd27b308d" isCorrect="false">
+      Пустой объект является ложным типом данных
+    </item>
+	</question.choice>
+</slide.quiz>
