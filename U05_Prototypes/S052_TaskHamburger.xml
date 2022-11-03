@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<slide.exercise id="234ca536-c77c-4370-8831-271d772e09a7" title="Задание. Бургерная" xmlns="https://ulearn.me/schema/v2">
+    <scoring group="exercise" passedTestsScore="10" codeReviewScore="40"/>
+    <markdown>
+
+         Некая сеть фастфудов предлагает несколько видов гамбургеров:
+
+        - Маленький (`50 рублей, 20 калорий`)
+        - Большой (`100 рублей, 40 калорий`)
+
+         Гамбургер может быть с одним из нескольких видов начинок
+
+        - Сыром (`+ 10 рублей, + 20 калорий`)
+        - Салатом (`+ 20 рублей, + 5 калорий`)
+        - Картофелем (`+ 15 рублей, + 10 калорий`)
+
+         Дополнительно, гамбургер можно:
+
+        - Посыпать приправой (`+ 15 рублей, 0 калорий`)
+        - Полить майонезом (`+ 20 рублей, + 5 калорий`).
+
+         Напиши программу, расчиытвающую стоимость и калорийность гамбургера.
+         Используй ООП подход, а именно реализуй класс `Hamburger`,
+         константы и методы для выбора опций и рассчета нужных величин.
+
+         `Код должен быть защищен от ошибок`. Представь, что твоим классом будет пользоваться другой программист.
+         Если он передает неправильный тип гамбургера, например, или неправильный вид добавки, должно выбрасываться исключение
+
+
+    </markdown>
+    <exercise.universal exerciseDirName="src/52_hamburger" noStudentZip="false">
+        <checkForPlagiarism>false</checkForPlagiarism>
+        <hideSolutions>true</hideSolutions>
+        <hideExpectedOutput>true</hideExpectedOutput>
+        <userCodeFile>task.js</userCodeFile>
+        <includePathForChecker>../TestsRunner</includePathForChecker>
+        <dockerImageName>js-sandbox</dockerImageName>
+        <run>node docker-test-runner.mjs</run>
+        <region>Task</region>
+    </exercise.universal>
+</slide.exercise>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<slide.exercise id="1d7725df-3bc3-4691-a51b-7918d3671efb" title="Задание. Биткоин" xmlns="https://ulearn.me/schema/v2">
+    <scoring group="exercise" passedTestsScore="10" codeReviewScore="40"/>
+    <markdown>
+
+         Инвестор вложился в биткоин, когда он стоил `60,000$`, но после падения в два раза он все продал
+         с надеждой вложить свои деньги в другие токены чтобы отбить потери.
+         По тактике инвестора, вкладывать стоит только в токены, которые еще не показали свой максимум
+         Поэтому он выписал себе несколько перспективных, осталось только понять, куда вложиться
+
+         Инвестору для точных вложений необходмо 2 параметра
+
+            - `изменение цены за 24 часа`
+            - `цена`
+
+         Бюджет инвестора = `5.000$` и он хочет держать на них токены, а потом продать.
+
+         Инвестор выяснил, на сколько приблизительно меняется цена у каждого токена и записал это в поле `priceChange24h`
+         Может как уменьшиться, так и увеличиться.
+
+         У вас уже создан базовый класс `Coin`, вам необходимо создать от него остальные токены
+
+         В итоге по предоставленным данным вы должны выбрать один токен, который принесет `максимальную прибыль`
+
+
+    </markdown>
+    <exercise.universal exerciseDirName="src/51_bitcoin" noStudentZip="false">
+        <checkForPlagiarism>false</checkForPlagiarism>
+        <hideSolutions>true</hideSolutions>
+        <hideExpectedOutput>false</hideExpectedOutput>
+        <userCodeFile>task.js</userCodeFile>
+        <includePathForChecker>../TestsRunner</includePathForChecker>
+        <dockerImageName>js-sandbox</dockerImageName>
+        <run>node docker-test-runner.mjs</run>
+        <region>Task</region>
+    </exercise.universal>
+</slide.exercise>

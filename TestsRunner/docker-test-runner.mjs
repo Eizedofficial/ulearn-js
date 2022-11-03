@@ -15,6 +15,7 @@ const buildTests = async () => {
     (f) =>
       f.endsWith(".test.js") ||
       f.endsWith(".test.mjs") ||
+      f.endsWith(".test.cjs") ||
       f.endsWith(".test.ts")
   );
 

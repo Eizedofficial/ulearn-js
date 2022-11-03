@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<slide.exercise id="6102238f-46a9-42dc-a0fd-14d226826199" title="Задание: Крестики-нолики"
+                xmlns="https://ulearn.me/schema/v2">
+    <scoring group="exercise" passedTestsScore="10" codeReviewScore="50"/>
+    <markdown>
+        Задача дописать игру в крестики-нолики.
+
+        Сейчас в [проекте](src/10_exerciseTicTacToe/archieve.zip) описаны функции для рисования поля любого размера и рисования любого символа в клетке этого поля.
+        Твоя задача дописать код, чтобы это стало полноценной игрой в Крестики-нолики.
+        Для начала учтем, что ты как пользователь, должен ходить `X` в то время как компьютер : `O`
+        Чтобы решить эту задачку тебе потредуется дописать следующие функции:
+
+        1.`cellClickHandler`: функция, обрабатывающая нажатие по полю. Функция должна проверять, на какое поле нажал пользователь.
+
+        - Если поле уже занято, то нужно выходить из функции
+        - Если поле свободно, то на ставить текущий символ (`CurrentSymbol`)
+        - В функции `setTimeout`(о ней вы узнаете далее по курсу) должна быть проверка на конец игры.
+                Если игра не закончилась, должен сходить `AI`
+
+        2.`makeAiTurn`: функция, отвечающая за ход `AI`.
+
+        - Данная функция должна искать пустые клетки, а затем случайно выбирать одну из них. Сделать это можно через `Math.random()`.
+        - Затем также в функции setTimeout текущий игорок должен поменяться, если игра не окончена
+
+        3.`handleEndOfGame`: функция проверяет игру на завершенность.
+
+        - Для этого можно воспользоваться вспомогательной функцией `getWinningCellsAfterSymbol`, которая должна вернуть выигрышную строку, столбец, или диагональ,
+        - А также проверяет, остались ли ещё свободыные клетки (ведь если мы никуда уже не можем сыграть, то это ничья))
+
+        4.`getWinningCellsAfterSymbol`: проверяет возможные выигрышные позиции (строку, столбец или диагональ). Для этого, можно вспользоваться
+        функцией из класса `Exercise` - `isSymbolWon`
+
+        5.`handleWin`:
+
+        - Выводит `alert` с надписью `(Победил "Знак Текущего Игрока")`,
+        - Перекрашивает выигрышную последовательность.
+        Здесь вам поможет функция `setSymbolInCell` класса `Exercise`
+
+        6.`handleDraw`: выводит `alert` с надписью `(Ничья)`
+
+        7.`switchPlayer`: меняет поле `CurrentSymbol` класса `Exercise` либо на `X`, либо на `O`. Эти символы уже есть в классе `Exercise`.
+
+        8.`getEmptyCells`: переберает каждое поле в массиве exercise.Field. Здесь вам также может пригодиться `exercise.getSymbolInCell`
+            Данная функция должна возвращать массив пустых полей.
+
+    </markdown>
+    <exercise.universal exerciseDirName="src/10_exerciseTicTacToe" noStudentZip="false">
+        <checkForPlagiarism>true</checkForPlagiarism>
+        <hideSolutions>false</hideSolutions>
+        <hideExpectedOutput>true</hideExpectedOutput>
+        <userCodeFile>task.js</userCodeFile>
+        <includePathForChecker>../TestsRunner</includePathForChecker>
+        <dockerImageName>js-sandbox</dockerImageName>
+        <run>node docker-test-runner.mjs</run>
+        <region>Exercise</region>
+    </exercise.universal>
+</slide.exercise>
